@@ -1,0 +1,11 @@
+* {{
+    main-bg:           {color0};
+    main-fg:           {foreground};
+    main-br:           {color1};
+
+    select-bg:         {color4};
+    select-fg:         {color9};
+
+    separatorcolor:    transparent;
+    border-color:      {color11};
+}}

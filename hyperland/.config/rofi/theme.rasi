@@ -1,0 +1,11 @@
+* {
+    main-bg:           #1D2021FF;
+    main-fg:           #EBDBB2FF;
+    main-br:           #EBDBB2FF;
+
+    select-bg:         #7daea3FF;
+    select-fg:         #282828FF;
+
+    separatorcolor:    transparent;
+    border-color:      #ea6962FF;
+}

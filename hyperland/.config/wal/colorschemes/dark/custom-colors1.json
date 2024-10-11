@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/raumsegler/dotfiles/wallpapers/current.set",
+    "alpha": "100",
+
+    "special": {
+        "background": "#181612",
+        "foreground": "#c5c4c3",
+        "cursor": "#c5c4c3"
+    },
+    "colors": {
+        "color0": "#181612",
+        "color1": "#BE9551",
+        "color2": "#DAA45E",
+        "color3": "#486D93",
+        "color4": "#6A9E94",
+        "color5": "#A0A89A",
+        "color6": "#C7BF9F",
+        "color7": "#c5c4c3",
+        "color8": "#706b5b",
+        "color9": "#BE9551",
+        "color10": "#DAA45E",
+        "color11": "#486D93",
+        "color12": "#6A9E94",
+        "color13": "#A0A89A",
+        "color14": "#C7BF9F",
+        "color15": "#c5c4c3"
+    }
+}
