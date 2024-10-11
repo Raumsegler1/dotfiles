@@ -8,8 +8,6 @@
     <h3></h3>
 </div>
 
-  <summary>Notable features</summary>
-     
   - **Wallpaperselect script**: wallpaper script with swww and pywal16
   - **Waybar**: Custom Waybar Styling with transparent background
   - **wlogout**: not properly looking logout menu 
@@ -22,18 +20,18 @@
 </div>
 
 **Desktop with waybar**
-![image]()
-![image]()
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-waybar.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-waybar2.png)
 
 **Terminal windows**
-![image]()
-![image]()
-![image]()
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-terminal.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-terminal2.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-terminal3.png)
 
 **Rofi menu**
-![image]()
-![image]()
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-rofi.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-rofi2.png)
 
 **Wallpapermenu**
-![image]()
-![image]()
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-wallpaper.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-wallpaper2.png)
