@@ -17,15 +17,15 @@
         "tray",
         "memory",
         "network",
-        "wireplumber",
+        "custom/pipewire",
         "custom/power"
     ],
     "wlr/taskbar": {
         "format": "{icon}",
         "on-click": "activate",
         "on-click-right": "fullscreen",
-        "icon-theme": "default",
-        "icon-size": 15,
+        "icon-theme": "",
+        "icon-size": 25,
         "tooltip-format": "{title}"
     },
     "hyprland/workspaces": {
@@ -63,7 +63,8 @@
     },
     "clock": {
         "tooltip-format": "{calendar}",
-        "format": "  {:%I:%M %p}"
+        "format": "  {:%H:%M}",
+        "on-click": "ags -t calendarmenu"
     },
     "network": {
         "format-wifi" : "{icon}",
@@ -74,7 +75,7 @@
 	"tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
 	"tooltip-format-disconnected": "Disconnected",
-	"on-click": "",
+	"on-click": "ags -t networkmenu",
         "on-click-right": "",
 	"interval": 5,
 	"nospacing": 1,
@@ -89,13 +90,13 @@
             "headphone": "",
             "default": ["󰖀","󰕾",""]
         },
-        "on-click": "pamixer -t",
+        "on-click": "ags -t audiomenu",
         "scroll-step": 1
     },
     "custom/logo": {
-        "format": "  ",
+        "format": " ",
         "tooltip": false,
-        "on-click": ""
+        "on-click": "ags -t dashboardmenu"
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -136,6 +137,18 @@
     "custom/power": {
         "format": "󰤆",
         "tooltip": false,
-        "on-click": "wlogout"
-    }
+        "on-click": "ags -t powerdropdownmenu"
+    },
+    "custom/pipewire": {
+        "exec": "pw-volume status",
+        "return-type": "json",
+        "interval": "once",
+        "signal": 8,
+        "on-click": "ags -t audiomenu",
+        "format": "{icon} {percentage}%",
+        "format-icons": {
+            "mute": "",
+            "default": ["󰕿", "󰖀", "󰕾"]
+        }
+    },
 }

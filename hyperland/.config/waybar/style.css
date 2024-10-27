@@ -32,6 +32,7 @@ window#waybar {
 }
 
 window#waybar.hidden {
+  background-color: transparent;
 }
 
 .modules-left {
@@ -88,6 +89,7 @@ window#waybar.hidden {
 #battery,
 #backlight,
 #wireplumber,
+#custom-pipewire,
 #network,
 #clock,
 #tray {
@@ -104,9 +106,12 @@ window#waybar.hidden {
 
 #custom-logo {
   padding-right: 7px;
-  padding-left: 7px;
+  padding-left: 11px;
   font-size: 15px;
-  color: @bg_color1;
+  border-radius: 4px;
+  margin: 4px 18px 4px 4px;
+  background-color: @bg_color1;
+  color: @bg_main;
 }
 
 #memory {
@@ -134,6 +139,10 @@ window#waybar.hidden {
 }
 
 #wireplumber {
+  background-color: @bg_color5;
+}
+
+#custom-pipewire {
   background-color: @bg_color5;
 }
 

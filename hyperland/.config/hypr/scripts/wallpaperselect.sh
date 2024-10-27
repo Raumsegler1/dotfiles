@@ -35,7 +35,7 @@ r_override="element{border-radius:10px; }
             }"
 
 # launch rofi menu
-RofiSel=$( find -L "${wallPath}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" \) -exec basename {} \; | sort | while read rfile
+RofiSel=$( find -L "${wallPath}" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.webp" \) -exec basename {} \; | sort | while read rfile
 do
   echo -en "$rfile\x00icon\x1f${wallPath}/${rfile}\n"
 done | rofi -dmenu -theme-str "${r_override}" -config "${RofiConf}" -select "${currentWall}")
@@ -60,6 +60,8 @@ if [ ! -z "${RofiSel}" ] ; then
   pywalfox update
 
   pywal-spicetify Sleek
+
+  /home/raumsegler/.config/hypr/scripts/themecord.sh
   
   dunstify "Changed Wallpaper to ${RofiSel}" -a "Wallpaper" -i "${wallPath}/${RofiSel}" -r 91190 -t 2200
 fi

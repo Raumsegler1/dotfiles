@@ -4,7 +4,7 @@ WALLPAPER_DIR="/home/raumsegler/dotfiles/wallpapers/"
 
 while true; do
     # List files in the wallpaper directory and send them to wofi
-   SELECTED=$(ls "$WALLPAPER_DIR"/*.{png,jpg,jpeg,gif,webp} 2>/dev/null | xargs -n 1 basename | wofi --dmenu --prompt "Select a wallpaper:" -W 300 -H 300)
+   SELECTED=$(ls "$WALLPAPER_DIR"/*.{png,jpg,jpeg,gif,webp} 2>/dev/null | xargs -n 1 basename | wofi --dmenu --prompt "Select a wallpaper:" -W 600 -H 300)
 
     # Check if a selection was made
     if [ -n "$SELECTED" ]; then

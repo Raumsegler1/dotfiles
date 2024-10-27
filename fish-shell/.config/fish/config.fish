@@ -35,3 +35,6 @@ status --is-interactive; and rbenv init - fish | source
 
 # Created by `pipx` on 2024-10-06 19:22:26
 set PATH $PATH /home/raumsegler/.local/bin
+
+export PATH="$PATH:/home/raumsegler/go/bin"
+

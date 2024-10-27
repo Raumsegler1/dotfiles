@@ -6,34 +6,34 @@ configuration {
 }
 
 //@theme "~/.config/rofi/theme.rasi"
-@theme "~/.cache/wal/roficolors.rasi"
+@theme "~/.cache/wal/roficolors2.rasi"
 
 window {
     enabled:                     true;
     fullscreen:                  false;
-    width:                       80%;
+    width:                       100%;
     transparency:                "real";
     cursor:                      "default";
     spacing:                     0px;
     padding:                     0px;
-    border:                      5px solid;
+    border:                      0px solid;
     border-color:                @border-color;
-    border-radius:               8px;
+    border-radius:               0px;
     background-color:            transparent;
 }
 
 mainbox {
     enabled:                     true;
     children:                    [ "listview" ];
-    background-color:            @main-bg;
+    background-color:            @main-rgba;
 }
 
 listview {
     enabled:                     true;
     columns:                     2;
     lines:                       20;
-    spacing:                     12px;
-    padding:                     12px;
+    spacing:                     26px;
+    padding:                     42px;
     cycle:                       true;
     dynamic:                     false;
     scrollbar:                   false;
