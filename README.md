@@ -40,6 +40,23 @@
 ![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-wallpaper2.png)
 
 <div align="center">
+    <h2>• old •</h2>
+    <h3></h3>
+</div>
+
+### **Rofi menu**
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-rofi.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-rofi2.png)
+
+### **Desktop with waybar**
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-waybar.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-waybar2.png)
+
+### **Wallpapermenu**
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-wallpaper.png)
+![image](https://github.com/Raumsegler1/dotfiles/blob/2fb52af18f80427c8d2502174e1cc25f613d5874/screenshots/desktop-wallpaper2.png)
+
+<div align="center">
     <h2>• notes •</h2>
     <h3></h3>
 </div>
